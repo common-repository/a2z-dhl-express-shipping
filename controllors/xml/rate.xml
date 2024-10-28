@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:DCTRequest xmlns:p="http://www.dhl.com" xmlns:p1="http://www.dhl.com/datatypes" xmlns:p2="http://www.dhl.com/DCTRequestdatatypes" schemaVersion="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com DCT-req.xsd">
+  <GetQuote>
+    <Request>
+		<ServiceHeader>
+			<MessageTime>{mesage_time}</MessageTime>
+			<MessageReference>1234567890123456789012345678901</MessageReference>
+			<SiteID>{siteid}</SiteID>
+			<Password>{pwd}</Password>
+		</ServiceHeader>
+		<MetaData>
+		    <SoftwareName>Shipi</SoftwareName>
+		    <SoftwareVersion>2.0</SoftwareVersion>
+		</MetaData>
+    </Request>
+    <From>
+	  <CountryCode>{base_co}</CountryCode>
+	  {org_pos}
+    </From>
+    <BkgDetails> 
+      <PaymentCountryCode>{pay_con}</PaymentCountryCode>
+      <Date>{mail_date}</Date>
+      <ReadyTime>PT10H21M</ReadyTime>
+      <DimensionUnit>{dim_unit}</DimensionUnit>
+      <WeightUnit>{weight_unit}</WeightUnit>
+      <Pieces>
+		{pieces}
+	  </Pieces>
+	  {fetch_accountrates}
+	  <IsDutiable>{is_dutiable}</IsDutiable>
+	  <NetworkTypeCode>AL</NetworkTypeCode>
+	  {additional_insurance_details}
+	  {danger_goods}
+	  {duty_tax}
+	  {insurance_details}	  	 
+	  </BkgDetails>
+    <To>
+      <CountryCode>{customerAddressIso}</CountryCode>
+		  {destination_postcode_city}
+	  </To>
+		{dutiable_content}
+  </GetQuote>
+</p:DCTRequest>
