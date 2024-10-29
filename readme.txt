@@ -2,9 +2,9 @@
 Contributors: aarsiv
 Tags: DHL, DHL Express, automated, shipping rates, shipping label,  return label, DHL Woocommerce
 Requires at least: 4.0.1
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 5.5.2
+Stable tag: 5.5.3
 License: GPLv3 or later License
 URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -112,6 +112,8 @@ If you are tired by the process of creating and printing a shipping label, here 
 
 
 == Changelog ==
+=5.5.3
+	> New Wordpress version tested
 =5.5.2
 	> Bug fix on order rate
 =5.5.1

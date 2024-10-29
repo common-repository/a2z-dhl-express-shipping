@@ -3,7 +3,7 @@
  * Plugin Name: DHL Express Rates & Labels 
  * Plugin URI: https://myshipi.com/
  * Description: Realtime Shipping Rates, Shipping label, Pickup, commercial invoice automation included.
- * Version: 5.5.2
+ * Version: 5.5.3
  * Author: Shipi
  * Author URI: https://myshipi.com/
  * Developer: aarsiv
